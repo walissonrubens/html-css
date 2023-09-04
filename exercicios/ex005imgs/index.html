@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgs</title>
+</head>
+<body>
+    <h1>proporções</h1>
+    <p>DJ henrique de ferraz comprou uma moto pra pegar varias delas</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imgs/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/m.png" type="image/png">
+        <img src="imgs/g.png" alt="Imagem flexivel">
+    </picture>
+    
+    <h1>audios</h1>
+    <!--<audio src="media/High Noon - TrackTribe.mp3" controls autoplay></audio> MP3 WAV OGG-->
+    
+    <audio preload="metadata" controls loop>
+        <source src="media/High Noon - TrackTribe.mp3" type="audio/mpeg">
+        <p>o navegador não é compativel, baixa o audio <a href="media/High Noon - TrackTribe.mp3">aqui</a></p>
+    </audio>
+    
+</body>
+</html>

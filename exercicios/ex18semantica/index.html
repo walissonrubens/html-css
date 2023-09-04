@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantica</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: wheat;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article>aside{
+            background-color: rgb(160, 159, 159);
+        }
+
+        nav{
+            background-color: rgb(90, 89, 89);
+            padding: 3px;
+            box-shadow: 5px 6px 20px 1px rgba(0, 0, 0, 0.651);
+
+        }
+
+        nav>a{
+            text-decoration: none;
+            color: rgba(103, 243, 248, 0.596);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>    
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esportes politica tecnologia</p>
+
+        </section>
+        <section>
+            <article id="noticias">
+                <h2>Noticia do blablabla</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, iusto laborum. Repudiandae, qui officiis eligendi omnis ad, minima illum cumque debitis dolore iusto numquam cupiditate dignissimos iste velit eius ratione.</p>
+                <aside>
+                    <p>Artigo escrito por W</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolido por W</p>
+    </footer>
+</body>
+</html>
