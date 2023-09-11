@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'cordel';
+    src: url('fontes/Cordel\ Groteska.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comic';
+    src: url('fontes/Sriracha-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: 'cordel', cursive, serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+    font-size: 55px;
+    
+}
+
+header h3{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.p1{
+    padding-top: 50px;
+    padding-left: 30px;
+    line-height: 2em;
+    background-color: white;
+    text-align: justify;
+    font-family: 'comic';
+    font-size: 3.1em;
+    font-weight: 500;
+    padding-bottom: 100px;
+    
+}
+
+#p2{
+    height: 100vh;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 30px;
+    line-height: 2em;
+    background: white url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    text-align: justify;
+    font-family: 'comic';
+    font-size: 3.1em;
+    font-weight: 500;
+    box-shadow: inset 1px 1px 15px black;
+}
+
+.conteudo{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 585px;
+    padding: 7px;
+    display: inline-block;
+}
+
+#p4{
+    height: 100vh;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 30px;
+    line-height: 2em;
+    background: white url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    text-align: justify;
+    font-family: 'comic';
+    font-size: 3.1em;
+    font-weight: 500;
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.603);
+    text-shadow: 1px 1px 2px black;
+}
+
+.conteudo2{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 590px;
+    padding: 7px;
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 1.3em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
