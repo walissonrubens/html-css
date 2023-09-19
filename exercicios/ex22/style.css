@@ -24,3 +24,11 @@ td, th {
     background-color: gray;
     
 }
+
+col.cnome{
+    background-color: green;
+}
+
+col.cgrupo{
+    background-color: red;
+}
